@@ -1,5 +1,6 @@
 package main;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -11,7 +12,7 @@ public class NewCollectorsExercice {
 	private static final String PART_4 = null;
 
 	/**
-	 * 1. Create a new List with List.of containing all constants <br>
+	 * 1. Create a new List containing all constants <br>
 	 * 2. Stream the List and filter out all blank streams <br>
 	 * 3. Convert to an unmodifiable list <br>
 	 * 
@@ -26,7 +27,7 @@ public class NewCollectorsExercice {
 
 	private static List<String> getFilteredStrings() {
 
-		List<String> results = List.of(PART_1, PART_2, PART_3, PART_4).stream().filter(s -> !s.isBlank())
+		List<String> results = Arrays.asList(PART_1, PART_2, PART_3, PART_4).stream().filter(s -> s != null && !s.isBlank())
 				.collect(Collectors.toUnmodifiableList());
 
 		return results;
@@ -37,10 +38,11 @@ public class NewCollectorsExercice {
 		try {
 			results.add("");
 		} catch (UnsupportedOperationException ex) {
-			System.out.println("You win");
+			System.out.println("NewCollectorsExcercice: You win!");
+			return;
 		}
 
-		throw new RuntimeException("You still have work to do!");
+		throw new RuntimeException("NewCollectorsExcercice: You still have work to do!");
 
 	}
 
