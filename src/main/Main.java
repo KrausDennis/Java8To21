@@ -10,6 +10,20 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
+		String square = """
+				****
+				*  *
+				*  *
+				****
+				""";
+		
+		System.out.println(square);
+		
+		String placeholder = """
+				My name is %s
+				""".formatted("Dennis");
+		
+		System.out.println(placeholder);
 	}
 
 }
