@@ -1,4 +1,4 @@
-package main;
+package main.java9;
 
 import java.lang.StackWalker.StackFrame;
 import java.util.List;
@@ -6,8 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Java 9
- * Performant way of getting the stack
+ * Performant way of getting the call stack
  */
 public class StackWalkerApi {
 
