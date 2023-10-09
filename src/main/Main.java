@@ -3,7 +3,7 @@ package main;
 public class Main {
 
 	/**
-	 * TODO: Create an abstract sealed class "Shape" allowing Circle and Rectangle
+	 * TODO: Create an sealed interface "Shape" allowing Circle, Rectangle and Triangle
 	 * to inherit from 
 	 * 
 	 * TODO: Create a final class Circle inheriting from Shape with the attribute
@@ -11,6 +11,9 @@ public class Main {
 	 * 
 	 * TODO: Create a final class Rectangle inheriting from Shape with the
 	 * attributes 'a' and 'b'
+	 * 
+	 * TODO: Create a record Triangle inheriting from Shape with the
+	 * attributes 'b' and 'h'
 	 * 
 	 * TODO: Create a method accepting a 'Shape', which returns the surface of the
 	 * given Shape using a switch expression with a type pattern 
