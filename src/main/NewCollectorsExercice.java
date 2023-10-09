@@ -33,10 +33,11 @@ public class NewCollectorsExercice {
 		try {
 			results.add("");
 		} catch (UnsupportedOperationException ex) {
-			System.out.println("You win");
+			System.out.println("NewCollectorsExcercice: You win");
+			return;
 		}
 
-		throw new RuntimeException("You still have work to do!");
+		throw new RuntimeException("NewCollectorsExcercice: You still have work to do!");
 
 	}
 

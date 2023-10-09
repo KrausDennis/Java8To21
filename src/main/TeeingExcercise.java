@@ -46,11 +46,11 @@ public class TeeingExcercise {
 
 		if (employeeList instanceof ArrayList<?> list && list.size() == 2 && count instanceof Long numberOfEmployees
 				&& numberOfEmployees.equals(2L)) {
-			System.out.println("You win!");
+			System.out.println("TeeingExercice: You win!");
 			return;
 		}
 
-		throw new RuntimeException("You still have work to do!");
+		throw new RuntimeException("TeeingExercice: You still have work to do!");
 
 	}
 

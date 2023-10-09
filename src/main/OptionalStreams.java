@@ -34,9 +34,9 @@ public class OptionalStreams {
 	private static void validate(List<String> result) {
 
 		if (result == null || result.size() != 2 || !result.contains(FOO) || !result.contains(BAR)) {
-			throw new RuntimeException("You still have work to do!");
+			throw new RuntimeException("OptionalStreams: You still have work to do!");
 		}
 
-		System.out.println("You win!");
+		System.out.println("OptionalStreams: You win!");
 	}
 }
