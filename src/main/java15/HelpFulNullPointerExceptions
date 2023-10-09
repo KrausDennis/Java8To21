@@ -1,3 +1,0 @@
-Better NullpointerException - Error Messages pointing to the exact place where the error occurs with compiler option:
-
- -XX:+ShowCodeDetailsInExceptionMessages
