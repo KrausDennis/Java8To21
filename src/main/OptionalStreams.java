@@ -12,8 +12,7 @@ public class OptionalStreams {
 	 * @return
 	 */
 	public static List<String> filterAndConvert(List<Optional<String>> optionals) {
-
-		return null;
+		return optionals.stream().flatMap(Optional::stream).toList();
 	}
 
 }
