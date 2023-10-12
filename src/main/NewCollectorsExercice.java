@@ -10,7 +10,7 @@ public class NewCollectorsExercice {
 	private static final String PART_4 = null;
 
 	/**
-	 * 1. Create a new List with List.of containing all constants <br>
+	 * 1. Create a new List with Arrays.asList containing all constants <br>
 	 * 2. Stream the List and filter out all blank streams <br>
 	 * 3. Convert to an unmodifiable list <br>
 	 * 
